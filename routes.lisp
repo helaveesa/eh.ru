@@ -14,22 +14,20 @@
 
 (defun old-page (filename)
   (tpl:root
-   (list :navmain (tpl:navmain (menu))
-         :content (tpl:contentblock
+   (list :content (tpl:contentblock
                    (list :content (alexandria:read-file-into-string filename))))))
 
 ;; main
 
 (restas:define-route main ("/")
   (tpl:root
-   (list :navmain (tpl:navmain (menu))
-         :content (concatenate 'string
-                                (tpl:platform)
-                                (tpl:ecosystem)
-                                (tpl:amc)
-                                (tpl:solutions)
-                                (tpl:thrive)
-                                (tpl:app)))))
+   (list :content (concatenate 'string
+                               (tpl:platform)
+                               (tpl:ecosystem)
+                               (tpl:amc)
+                               (tpl:solutions)
+                               (tpl:thrive)
+                               (tpl:app)))))
 
 
 ;; plan file pages
