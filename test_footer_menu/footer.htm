@@ -1,0 +1,45 @@
+// -*- mode: closure-template-html; fill-column: 110 -*-
+
+{namespace tpl}
+
+{template menuitem}
+  <li>{\n}
+    <a href="{$link |noAutoescape}">{\n}
+      {$title |noAutoescape}{\n}
+    </a>{\n}
+  </li>{\n}
+{/template}
+
+
+{template menugroup}
+  <li>
+    <a href="{$grouplink |noAutoescape}">{$grouptitle |noAutoescape}</a>
+      <ul class="clearfix no-list">
+        {foreach $items in $menuitems}
+          {call menuitem data="$item" /}
+        {/foreach}
+      </ul>
+  </li>
+{/template}
+
+
+{template footer}
+  <footer id="footer">
+    <div class="clearfix">
+      <nav>
+        <ul class="clearfix no-list">
+          {foreach $group in $menugroups}
+            {call menugroup data="$group" /}
+          {/foreach}
+        </ul>
+        <img src="/img/minipick/mail.gif" width="" height="" alt="mail-botanic" />
+        <a href='mailto:info@botanical-lab.ru' class="organization_male">info@botanical-lab.ru</a>
+        <br />
+        <br />
+        <br />
+        <br />
+        © Все права защищены. С-Пб.&nbsp; 2010
+      </nav>
+    </div>
+  </footer>
+{/template}

@@ -1,0 +1,49 @@
+
+body {
+    background-color: #000000;
+    color: #FFFFFF;
+    height: 100%;
+    margin: 0;
+    overflow: hidden;
+    padding: 0;
+    width: 100%;
+}
+#embed-holder, .error-message {
+    background-color: #000000;
+    height: 100%;
+    position: absolute;
+    width: 100%;
+}
+#embed-holder video {
+    height: 100%;
+    width: 100%;
+}
+#embed-bg {
+    bottom: 0;
+    margin: auto;
+    position: absolute;
+    top: 0;
+    width: 100%;
+}
+#embed-bg.full {
+    bottom: 42px;
+}
+#embed-bg.simple {
+    bottom: 20px;
+}
+#embed-content {
+    height: 100%;
+    position: absolute;
+    width: 100%;
+    z-index: 1;
+}
+.error-notfound {
+    background: url("images/embed/notfound.png") no-repeat scroll center center transparent;
+}
+.error-flashrequired {
+    background: url("images/embed/flashrequired.png") no-repeat scroll center center transparent;
+}
+.error-nomobile {
+    background: url("images/embed/flashrequired.png") no-repeat scroll center center transparent;
+}
+
