@@ -21,7 +21,7 @@
 
 (in-package #:eh)
 
-(let ((path '(:RELATIVE "botanic")))
+(let ((path '(:RELATIVE "eh")))
   (setf asdf:*central-registry*
         (remove-duplicates (append asdf:*central-registry*
                                    (list (merge-pathnames

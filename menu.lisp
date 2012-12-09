@@ -1,4 +1,4 @@
-(in-package #:botanic)
+(in-package #:eh)
 
 (defun menu ()
   (list :menugroups
