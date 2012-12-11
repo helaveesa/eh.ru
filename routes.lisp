@@ -23,11 +23,8 @@
   (tpl:root
    (list :content (concatenate 'string
                                (tpl:platform)
-                               (tpl:ecosystem)
                                (tpl:amc)
-                               (tpl:solutions)
-                               (tpl:thrive)
-                               (tpl:app)))))
+                               (tpl:solutions)))))
 
 
 ;; plan file pages
@@ -42,7 +39,7 @@
        ,@body)))
 
 
-(def/route about ("about")
+(def/route about1 ("about")
   (old-page "content/about.htm"))
 
 (def/route about2 ("service")
@@ -57,15 +54,34 @@
 (def/route about5 ("customers")
   (old-page "content/customers.htm"))
 
+(def/route about51 ("client_1")
+  (old-page "content/client_1.htm"))
+(def/route about52 ("client_2")
+  (old-page "content/client_2.htm"))
+(def/route about53 ("client_3")
+  (old-page "content/client_3.htm"))
+
 (def/route about6 ("facts")
   (old-page "content/facts.htm"))
+
+(def/route about61 ("f1")
+  (old-page "content/f1.htm"))
+(def/route about62 ("f2")
+  (old-page "content/f2.htm"))
+(def/route about63 ("f3")
+  (old-page "content/f3.htm"))
+(def/route about64 ("f4")
+  (old-page "content/f4.htm"))
 
 (def/route about7 ("faq")
   (old-page "content/faq.htm"))
 
+(def/route about8 ("biografy")
+  (old-page "content/biografy.htm"))
 
 
-(def/route specialty ("specialty")
+
+(def/route specialty1 ("specialty")
   (old-page "content/specialty.htm"))
 
 (def/route specialty2 ("ad_outdoor")
@@ -78,7 +94,7 @@
 
 
 
-(def/route articles ("articles")
+(def/route articles1 ("articles")
   (old-page "content/articles.htm"))
 
 (def/route articles2 ("ad")
@@ -102,11 +118,25 @@
 (def/route articles8 ("propaganda_pr")
   (old-page "content/propaganda_pr.htm"))
 
+(def/route articles9 ("pr_terminology")
+  (old-page "content/pr_terminology.htm"))
 
 
 
-(def/route  lisp ("lisp")
+
+(def/route  lisp1 ("lisp")
   (old-page "content/lisp.htm"))
+
+(def/route  lisp11 ("algoritm")
+  (old-page "content/algoritm.htm"))
+(def/route  lisp12 ("code")
+  (old-page "content/code.htm"))
+(def/route  lisp13 ("test")
+  (old-page "content/test.htm"))
+(def/route  lisp14 ("articles_lisp")
+  (old-page "content/articles_lisp.htm"))
+(def/route  lisp15 ("lispis")
+  (old-page "content/lispis.htm"))
 
 (def/route  news ("news")
   (old-page "content/news.htm"))
@@ -137,6 +167,26 @@
 (restas:mount-submodule -img- (#:restas.directory-publisher)
   (restas.directory-publisher:*baseurl* '("img"))
   (restas.directory-publisher:*directory* (path "img/")))
+
+(restas:mount-submodule -img- (#:restas.directory-publisher)
+  (restas.directory-publisher:*baseurl* '("fon"))
+  (restas.directory-publisher:*directory* (path "fon/")))
+
+(restas:mount-submodule -img- (#:restas.directory-publisher)
+  (restas.directory-publisher:*baseurl* '("minipick"))
+  (restas.directory-publisher:*directory* (path "minipick/")))
+
+(restas:mount-submodule -img- (#:restas.directory-publisher)
+  (restas.directory-publisher:*baseurl* '("myworks"))
+  (restas.directory-publisher:*directory* (path "myworks/")))
+
+(restas:mount-submodule -img- (#:restas.directory-publisher)
+  (restas.directory-publisher:*baseurl* '("reklama"))
+  (restas.directory-publisher:*directory* (path "reklama/")))
+
+(restas:mount-submodule -img- (#:restas.directory-publisher)
+  (restas.directory-publisher:*baseurl* '("skrap"))
+  (restas.directory-publisher:*directory* (path "skrap/")))
 
 (restas:mount-submodule -resources- (#:restas.directory-publisher)
   (restas.directory-publisher:*baseurl* '("resources"))
