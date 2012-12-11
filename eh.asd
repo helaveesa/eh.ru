@@ -14,7 +14,6 @@
   :serial       t
   :components   ((:static-file "templates.htm")
                  (:file "defmodule")
-                 (:file "menu")
                  (:file "render")
                  (:file "routes")
                  (:file "init")))
