@@ -42,6 +42,9 @@
 (def/route about1 ("about")
   (old-page "content/about.htm"))
 
+(def/route about11 ("biografy")
+  (old-page "content/biografy.htm"))
+
 (def/route about2 ("service")
   (old-page "content/service.htm"))
 
@@ -75,9 +78,6 @@
 
 (def/route about7 ("faq")
   (old-page "content/faq.htm"))
-
-(def/route about8 ("biografy")
-  (old-page "content/biografy.htm"))
 
 
 
@@ -140,6 +140,9 @@
 
 (def/route  news ("news")
   (old-page "content/news.htm"))
+
+(def/route  calendari ("calendari")
+  (old-page "content/calendari.htm"))
 
 (def/route  userful-links ("userful_links")
     (old-page "content/userful_links.htm"))
