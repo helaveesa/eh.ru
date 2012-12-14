@@ -4,7 +4,7 @@
 ;; 404
 
 (defun page-404 (&optional (title "404 Not Found") (content "Страница не найдена"))
-  "404:  извините,страница, которую Вы запросили, не находится в нашей базе данных. Скорее всего вы попали на битую ссылку или опечатались при вводе URL")
+"404:  извините,страница, которую Вы запросили, не находится в нашей базе данных. Скорее всего вы попали на битую ссылку или опечатались при вводе URL")
 
 (restas:define-route not-found-route ("*any")
   (restas:abort-route-handler
@@ -79,8 +79,6 @@
 (def/route about7 ("faq")
   (old-page "content/faq.htm"))
 
-
-
 (def/route specialty1 ("specialty")
   (old-page "content/specialty.htm"))
 
@@ -89,10 +87,6 @@
 
 (def/route specialty3 ("exhibition")
   (old-page "content/exhibition.htm"))
-
-
-
-
 
 (def/route articles1 ("articles")
   (old-page "content/articles.htm"))
@@ -120,9 +114,6 @@
 
 (def/route articles9 ("pr_terminology")
   (old-page "content/pr_terminology.htm"))
-
-
-
 
 (def/route  lisp1 ("lisp")
   (old-page "content/lisp.htm"))

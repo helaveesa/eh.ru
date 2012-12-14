@@ -8,7 +8,7 @@
 
 
 (restas:define-module #:eh
-    (:use #:closer-mop #:cl #:iter #:alexandria #:anaphora #:postmodern)
+  (:use #:closer-mop #:cl #:iter #:alexandria #:anaphora #:postmodern)
   (:shadowing-import-from :closer-mop
                           :defclass
                           :defmethod
