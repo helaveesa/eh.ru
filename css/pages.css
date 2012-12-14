@@ -144,10 +144,10 @@ body.home #echo-platform ul {
     text-align: center;
     padding: 20px 0px;
     margin-left: 70px;
-    background-color: #bdbdbd;
+    background-color: #ffcc66;
     color: #ffffff; }
     body.home #echo-platform ul li:hover {
-        background-color:#34C924;
+        background-color:#FF6600;
     }
     body.home #echo-platform ul li a {
       color: white; }
@@ -245,7 +245,7 @@ body.about-us #timeline .timeline-item {
     padding: 0px;
     font-size: 33px;
     line-height: 33px;
-    color: #34c924; }
+    color: #ff6600; }
     body.about-us #timeline .timeline-item h4 span {
       background-color: white; }
   body.about-us #timeline .timeline-item p {
@@ -294,11 +294,11 @@ body.newsroom #customer-success article, body.newsroom #echo-in-news article {
   body.newsroom #customer-success article h3, body.newsroom #echo-in-news article h3 {
     margin: 0px 0px 30px;
     font-size: 28px;
-    color: #34c924; }
+    color: #ff6600; }
   body.newsroom #customer-success article h6 a, body.newsroom #echo-in-news article h6 a {
     color: #333; }
   body.newsroom #customer-success article h6 a:hover, body.newsroom #echo-in-news article h6 a:hover {
-    color: #34c924; }
+    color: #ff6600; }
 body.newsroom #customer-success article:last-child, body.newsroom #echo-in-news article:last-child {
   margin-right: 0; }
 
@@ -313,7 +313,7 @@ body.management #staff .row {
     width: 320px;
     float: left; }
     body.management #staff .row > div h2 {
-      color: #34c924;
+      color: #ff6600;
       margin: 30px 0px 0px; }
     body.management #staff .row > div h3 {
       font-size: 18px;
@@ -364,7 +364,7 @@ body.investors #investors > div {
     body.investors #investors > div > div img {
       margin-bottom: 60px; }
     body.investors #investors > div > div h2 {
-      color: #34c924; }
+      color: #ff6600; }
     body.investors #investors > div > div p {
       width: 375px; }
 
@@ -379,7 +379,7 @@ body.contact-us #contact-form > div {
 body.contact-us #contact-form > div h6, body.api-key-request-form #contact-form > div h6, body.subscribe #contact-form > div h6 {
   font-family: 'OpenSansRegular'; }
 body.contact-us #contact-form > div h2, body.api-key-request-form #contact-form > div h2, body.subscribe #contact-form > div h2 {
-  color: #34c924; }
+  color: #ff6600; }
 body.contact-us #contact-form > div > div, body.api-key-request-form #contact-form > div > div, body.subscribe #contact-form > div > div {
   float: left; }
 body.contact-us #contact-form > div div.left, body.api-key-request-form #contact-form > div div.left, body.subscribe #contact-form > div div.left {
@@ -512,14 +512,14 @@ body.developer-partners #reasons div.right, body.custom-apps #reasons div.right 
       left: 0px;
       font-size: 24px;
       color: white;
-      background-color: #34c924;
+      background-color: #ff6600;
       width: 30px;
       height: 30px;
       text-align: center;
       line-height: 30px; }
     body.developer-partners #reasons div.right div.item h3, body.custom-apps #reasons div.right div.item h3 {
       font-family: 'OpenSansRegular';
-      color: #34c924;
+      color: #ff6600;
       font-size: 14px;
       line-height: 14px;
       margin: 0px 0px 5px; }
@@ -554,14 +554,14 @@ body.echo-enabled-program #reasons div.item {
     left: 0px;
     font-size: 24px;
     color: white;
-    background-color: #34c924;
+    background-color: #ff6600;
     width: 30px;
     height: 30px;
     text-align: center;
     line-height: 30px; }
   body.echo-enabled-program #reasons div.item h3 {
     font-family: 'OpenSansRegular';
-    color: #34c924;
+    color: #ff6600;
     font-size: 14px;
     line-height: 14px;
     margin: 0px 0px 5px; }
@@ -695,7 +695,7 @@ body.app #app-minor-features-btn {
       padding-left: 9px;
       background: url(/Content/Images/Global/Icons/arrow-right-large.png) no-repeat 0px -18px; }
   body.app #app-minor-features-btn a:hover {
-    color: #34c924; }
+    color: #ff6600; }
     body.app #app-minor-features-btn a:hover span {
       background-position: 0px 0px; }
 body.app #app-minor-features-list li {
@@ -755,7 +755,7 @@ body.app-case-studies #copy .primary {
   width: 290px; }
   body.app-case-studies #copy .primary .quote {
     font-size: 16px;
-    background-color: #34c924;
+    background-color: #ff6600;
     color: white;
     padding: 15px;
     width: 260px;
@@ -805,7 +805,7 @@ body.app-live-demo #demo .list > div {
     top: 5px;
     left: 0px;
     font-size: 28px;
-    color: #34c924; }
+    color: #ff6600; }
 
 body.support #support > div {
   padding-top: 150px; }
@@ -840,7 +840,7 @@ body.support #support .right {
   border-left: 1px solid #ddd; }
   body.support #support .right h3 {
     font-size: 26px;
-    color: #34c924; }
+    color: #ff6600; }
   body.support #support .right p {
     margin: 15px 0px 0px; }
     body.support #support .right p em {
@@ -867,7 +867,7 @@ body.industry-solutions #industry-solutions li {
     body.industry-solutions #industry-solutions li h3 a {
       color: #333; }
     body.industry-solutions #industry-solutions li h3 a:hover > div {
-      background-color: #34c924; }
+      background-color: #ff6600; }
 body.industry-solutions #industry-solutions li:nth-child(3n) {
   margin-right: 0px; }
 body.industry-solutions #echo-enabled-apps > div {
@@ -953,7 +953,7 @@ body.business-services.overview #industry-solutions li {
     -o-transition: top 150ms ease-in-out 0s, background-color 150ms ease-in-out 0s;
     transition: top 150ms ease-in-out 0s, background-color 150ms ease-in-out 0s; }
   body.business-services.overview #industry-solutions li a:hover > div {
-    background-color: #34c924; }
+    background-color: #ff6600; }
 body.business-services.overview #industry-solutions li:last-child {
   margin-right: 0px; }
 body.business-services.overview #business-features h2 {
@@ -973,7 +973,7 @@ body.business-services.overview #business-features .clearfix > div {
   body.business-services.overview #business-features .clearfix > div a {
     color: #333; }
   body.business-services.overview #business-features .clearfix > div a:hover {
-    color: #34c924; }
+    color: #ff6600; }
 body.business-services.overview #business-features .clearfix > div:last-child {
   margin-right: 0px; }
 
@@ -1006,7 +1006,7 @@ body.wwo-overview #diagram .right {
     width: 621px;
     height: 520px; }
 body.wwo-overview #facebook {
-  background-color: #009902;
+  background-color: #660000;
   color: white; }
   body.wwo-overview #facebook > div {
     padding: 40px 0px 50px; }
@@ -1057,7 +1057,7 @@ body.cs-case-studies #case-studies li {
     -o-transition: top 150ms ease-in-out 0s, background-color 150ms ease-in-out 0s;
     transition: top 150ms ease-in-out 0s, background-color 150ms ease-in-out 0s; }
   body.cs-case-studies #case-studies li a:hover > div {
-    background-color: #34c924; }
+    background-color: #ff6600; }
 body.cs-case-studies #case-studies li:last-child {
   margin-right: 0px; }
 
@@ -1071,7 +1071,7 @@ body.custom-wwe section.copy .right {
   width: 450px; }
   body.custom-wwe section.copy .right .quote {
     font-size: 16px;
-    background-color: #34c924;
+    background-color: #ff6600;
     color: white;
     padding: 15px;
     width: 260px;
