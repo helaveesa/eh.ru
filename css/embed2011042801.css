@@ -38,7 +38,7 @@ body {
     z-index: 1;
 }
 .error-notfound {
-    background: url("images/embed/notfound.png") no-repeat scroll center center transparent;
+    background: url("img/cat.jpg") no-repeat scroll center center transparent;
 }
 .error-flashrequired {
     background: url("images/embed/flashrequired.png") no-repeat scroll center center transparent;
