@@ -165,7 +165,7 @@ body.home #article-thrive div.video {
 body.home #article-amc > div {
   padding: 60px 0px;
   height: 749px;
-  background: url("/botanic/img/IMG_2405s.jpg") no-repeat left 60px; }
+  background: url("/eh/img/mainfon.jpg") no-repeat left 60px; }
 
 /**
 	ABOUT US /About botanic
@@ -175,7 +175,7 @@ body.about-us section.feature {
   body.about-us section.feature > div {
     padding: 0px;
     height: 470px;
-    background: url("/botanic/img/pic.jpg") no-repeat right 105px; }
+    background: url("/eh/img/png/2.jpg") no-repeat right 105px; }
     body.about-us section.feature > div div.banner-copy {
       padding-top: 200px; }
 body.about-us #stream-counter {
@@ -188,11 +188,11 @@ body.about-us #stream-numbers > div {
   body.about-us #stream-numbers > div > div {
     padding-top: 375px; }
 body.about-us #stream-numbers .left {
-  background: url("/botanic/img/pic1.jpg") no-repeat center top;
+  background: url("/eh/img/pensels.jpg") no-repeat center top;
   width: 450px;
   margin-left: 20px; }
 body.about-us #stream-numbers .right {
-  background: url("/botanic/img/pic2.jpg") no-repeat center top;
+  background: url("/eh/img/pensels.jpg") no-repeat center top;
   width: 425px;
   margin-left: 45px; }
 body.about-us #stream-numbers p {
@@ -328,7 +328,7 @@ body.management #staff .row {
 	WE'RE HIRING /AboutEcho/WereHiring
 **/
 body.were-hiring section.feature {
-  background: black url("/botanic/img/banner-zelen.jpg") no-repeat center top;
+  background: black url("/eh/img/girls.jpg") no-repeat center top;
   height: 500px; }
   body.were-hiring section.feature > div {
     padding: 0px;
@@ -410,7 +410,7 @@ body.contact-us form textarea, body.api-key-request-form form textarea, body.sub
 	PARTNER ECOSYSTEM
 **/
 body.partner-ecosystem .feature {
-  background: black url("/botanic/img/banner-neg-zel.jpg") no-repeat center top;
+  background: black url("/eh/img/web_design.jpg") no-repeat center top;
   height: 500px; }
   body.partner-ecosystem .feature > div {
     padding-bottom: 32px; }
@@ -485,7 +485,7 @@ body.corporate-partners section.partner > div, body.agency-partners section.part
       color: #666; }
 
 body.developer-partners section.feature, body.custom-apps section.feature {
-  background: transparent url("/botanic/img/banner3.jpg") no-repeat center top; }
+  background: transparent url("/eh/img/sozdanie-dizayna.jpg") no-repeat center top; }
   body.developer-partners section.feature > div, body.custom-apps section.feature > div {
     padding: 0px;
     height: 416px; }
@@ -848,7 +848,7 @@ body.support #support .right {
       font-family: 'OpenSansRegular'; }
 
 body.industry-solutions section.feature {
-  background: transparent url("/botanic/img/banner5.jpg") no-repeat center top; }
+  background: transparent url("/eh/img/book.jpg") no-repeat center top; }
   body.industry-solutions section.feature > div {
     padding: 0px;
     height: 416px; }
