@@ -182,6 +182,10 @@
   (restas.directory-publisher:*baseurl* '("skrap"))
   (restas.directory-publisher:*directory* (path "skrap/")))
 
+(restas:mount-submodule -img- (#:restas.directory-publisher)
+  (restas.directory-publisher:*baseurl* '("png"))
+  (restas.directory-publisher:*directory* (path "png/")))
+
 (restas:mount-submodule -resources- (#:restas.directory-publisher)
   (restas.directory-publisher:*baseurl* '("resources"))
   (restas.directory-publisher:*directory* (path "resources/")))
