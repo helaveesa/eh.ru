@@ -11,10 +11,10 @@ b, strong {
   font-weight: normal; }
 
 a, a:visited {
-  color: #34c924; }
+  color: #ff6600; }
 
 a:hover {
-  color: #009902; }
+  color: #660000; }
 
 #header, #main, #main > section, #footer {
   min-width: 940px;}
@@ -91,12 +91,12 @@ a.btn, button.btn {
   font-size: 14px;
   color: #ffffff;
   display: inline-block;
-  background-color: #34c924;
+  background-color: #FF6600;
   text-align: center;
   border: 0; }
 
 a.btn:hover, button.btn:hover {
-  background-color: #009902;
+  background-color: #660000;
   color: white; }
 
 /* Colours */
@@ -105,7 +105,7 @@ a.btn-grey {
   color: #fff; }
 
 a.btn-grey:hover {
-  background-color: #34c924; }
+  background-color: #FF6600; }
 
 /* Sizes */
 a.btn-full {
@@ -121,14 +121,14 @@ a.btn-lge, button.btn-lge {
   padding: 18px 12px; }
 
 a.btn-rounded {
-  background: #34c924;
+  background: #ff6600;
   border: 1px solid #54d417;
-  background: -moz-linear-gradient(top, #34c924 0%, #91f117 100%);
-  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #34c924), color-stop(100%, #91f117));
-  background: -webkit-linear-gradient(top, #34c924 0%, #91f117 100%);
-  background: -o-linear-gradient(top, #34c924 0%, #91f117 100%);
-  background: -ms-linear-gradient(top, #34c924 0%, #91f117 100%);
-  background: linear-gradient(to bottom, #34c924 0%, #91f117 100%);
+  background: -moz-linear-gradient(top, #ff6600 0%, #91f117 100%);
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #ff6600), color-stop(100%, #91f117));
+  background: -webkit-linear-gradient(top, #ff6600 0%, #91f117 100%);
+  background: -o-linear-gradient(top, #ff6600 0%, #91f117 100%);
+  background: -ms-linear-gradient(top, #ff6600 0%, #91f117 100%);
+  background: linear-gradient(to bottom, #ff6600 0%, #91f117 100%);
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='$top', endColorstr='$bottom',GradientType=0 );
   -webkit-border-radius: 4px;
   -moz-border-radius: 4px;
@@ -137,14 +137,14 @@ a.btn-rounded {
 a.btn-rounded:hover {
   background: #91f117;
   border: 1px solid #54d417;
-  background: -moz-linear-gradient(top, #91f117 0%, #34c924 100%);
-  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #91f117), color-stop(100%, #34c924));
-  background: -webkit-linear-gradient(top, #91f117 0%, #34c924 100%);
-  background: -o-linear-gradient(top, #91f117 0%, #34c924 100%);
-  background: -ms-linear-gradient(top, #91f117 0%, #34c924 100%);
-  background: linear-gradient(to bottom, #91f117 0%, #34c924 100%);
+  background: -moz-linear-gradient(top, #91f117 0%, #ff6600 100%);
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #91f117), color-stop(100%, #ff6600));
+  background: -webkit-linear-gradient(top, #91f117 0%, #ff6600 100%);
+  background: -o-linear-gradient(top, #91f117 0%, #ff6600 100%);
+  background: -ms-linear-gradient(top, #91f117 0%, #ff6600 100%);
+  background: linear-gradient(to bottom, #91f117 0%, #ff6600 100%);
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='$top', endColorstr='$bottom',GradientType=0 );
-  color: #009902;}
+  color: #660000;}
 
 a.btn-more:after {
   content: url(/Content/Images/Global/Icons/white-arrow-right.png);
@@ -159,7 +159,7 @@ a.btn-more:after {
   color: #BBB; }
 
 .up-arrow {
-  border-color: #009902 transparent;
+  border-color: #660000 transparent;
   border-style: solid;
   border-width: 0px 22px 22px 22px;
   height: 0px;
@@ -187,7 +187,7 @@ div.banner-copy {
     background: url("http://aboutecho.com/Content/Images/Global/Pixels/0f0e17-60.png");
     padding: 4px 6px; }
   div.banner-copy span.em {
-    background: #34c924; }
+    background: #ff6600; }
   div.banner-copy .btn {
     padding: 5px 6px;
     margin-top: 3px;
@@ -220,7 +220,7 @@ form .control-group {
   form .control-group .help-inline {
     display: none; }
   form .control-group input[type="text"]:focus, form .control-group select:focus, form .control-group textarea:focus {
-    background-color: #34c924;
+    background-color: #ff6600;
     color: white;
     font-family: 'OpenSansRegular';
     outline: 0; }
@@ -233,7 +233,7 @@ h2 {
   line-height: 32px;
   margin: 0px 0px 20px; }
   h2 em {
-    color: #34c924;
+    color: #ff6600;
     font-style: normal; }
 
 h3 {
@@ -241,14 +241,14 @@ h3 {
   line-height: 28px;
   margin: 0px 0px 20px; }
   h3 em {
-    color: #34c924;
+    color: #ff6600;
     font-style: normal; }
 
 h4 {
   font-size: 14px;
   margin: 10px 0px; }
   h4 em {
-    color: #34c924;
+    color: #ff6600;
     font-style: normal; }
 
 /**
@@ -276,7 +276,7 @@ ul.app-list li {
     ul.app-list li h5 a {
       color: #333333; }
     ul.app-list li h5 a:hover {
-      color: #34c924; }
+      color: #ff6600; }
   ul.app-list li a.btn-sml {
     position: absolute;
     top: 38px;
@@ -303,7 +303,7 @@ div.app-family-item h2 {
   div.app-family-item h2 a {
     color: #333333; }
   div.app-family-item h2 a:hover {
-    color: #34c924; }
+    color: #ff6600; }
 
 /**
 	SECTIONS
@@ -333,7 +333,7 @@ section.grey-level-4 {
   background-color: #ebebeb; }
 
 section.grey-level-5 {
-  background-color: #e0e0e0; }
+  background-color: #ffffcc; }
 
 section.grey-blue {
   background-color: #f4f7f8; }
@@ -369,7 +369,7 @@ body.app-ecosystem.app-ecosystem-root #header #overlay > div #page-menu #app-fam
   display: block; }
 
 #header {
-  background: #34c924;
+  background: #ff6600;
   color: #ffffff;
   height: 139px;
   display: block;
@@ -377,7 +377,7 @@ body.app-ecosystem.app-ecosystem-root #header #overlay > div #page-menu #app-fam
   position: relative;
   z-index: 2; }
   #header > div {
-    background: #34c924; }
+    background: #ff6600; }
   #header .echo-logo {
     position: relative;
     top: -6px; }
@@ -388,7 +388,7 @@ body.app-ecosystem.app-ecosystem-root #header #overlay > div #page-menu #app-fam
     #header #breadcrumbs a {
       color: #d3f9a9; }
     #header #breadcrumbs a:hover {
-      color: #009902; }
+      color: #660000; }
     #header #breadcrumbs h1 {
       display: inline; }
   #header #overlay {
@@ -419,7 +419,7 @@ body.app-ecosystem.app-ecosystem-root #header #overlay > div #page-menu #app-fam
           #header #overlay > div #page-menu ul li a {
             color: white; }
           #header #overlay > div #page-menu ul li a:hover {
-            color: #009902; }
+            color: #660000; }
         #header #overlay > div #page-menu ul li:last-child {
           margin-right: 0px; }
       #header #overlay > div #browse-apps {
@@ -433,7 +433,7 @@ body.app-ecosystem.app-ecosystem-root #header #overlay > div #page-menu #app-fam
         #header #overlay > div #browse-apps a {
           color: white; }
         #header #overlay > div #browse-apps a:hover {
-          color: #009902; }
+          color: #660000; }
 
 /* Main */
 #nav-main {
@@ -465,7 +465,7 @@ body.app-ecosystem.app-ecosystem-root #header #overlay > div #page-menu #app-fam
       padding-top: 51px;
       z-index: 1; }
       #nav-main > ul > li > nav.sub-nav > ul {
-        background-color: #009902;
+        background-color: #660000;
         zoom: 1;
         filter: alpha(opacity=97);
         opacity: 0.97;
@@ -478,13 +478,13 @@ body.app-ecosystem.app-ecosystem-root #header #overlay > div #page-menu #app-fam
           #nav-main > ul > li > nav.sub-nav > ul > li a {
             color: white; }
           #nav-main > ul > li > nav.sub-nav > ul > li a:hover {
-            color: #34c924; }
+            color: #ff6600; }
           #nav-main > ul > li > nav.sub-nav > ul > li > ul {
             padding: 20px 0px 30px 15px; }
     #nav-main > ul > li > nav.sub-nav:before {
       content: "";
       position: absolute;
-      background: #009902;
+      background: #660000;
       zoom: 1;
       filter: alpha(opacity=97);
       opacity: 0.97;
@@ -495,7 +495,7 @@ body.app-ecosystem.app-ecosystem-root #header #overlay > div #page-menu #app-fam
     #nav-main > ul > li > nav.sub-nav:after {
       content: "";
       position: absolute;
-      background: #009902;
+      background: #660000;
       zoom: 1;
       filter: alpha(opacity=97);
       opacity: 0.97;
@@ -512,7 +512,7 @@ body.app-ecosystem.app-ecosystem-root #header #overlay > div #page-menu #app-fam
     #nav-main > ul > li > nav.sub-nav.about-echo .up-arrow {
       left: 257px; }
   #nav-main > ul > li:hover > a {
-    color: #009902; }
+    color: #660000; }
 
 /* Aside */
 #header aside {
@@ -616,7 +616,7 @@ section.pre-footer .tweets {
     bottom: 35px; }
   #footer aside {
     float: left;
-    background-color: #34c924;
+    background-color: #ff6600;
     padding: 35px 20px;
     width: 190px;
     height: 510px;
@@ -625,7 +625,7 @@ section.pre-footer .tweets {
     #footer aside a {
       color: white; }
     #footer aside a:hover {
-      color: #009902; }
+      color: #660000; }
   #footer p {
     margin: 20px 0px;
     font-size: 18px; }
